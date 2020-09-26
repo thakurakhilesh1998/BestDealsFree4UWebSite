@@ -2,12 +2,19 @@ img{
     width: 5rem!important;
 }
 
+
+button:focus
+{
+    outline: none!important;
+    border: 1px solid white!important;
+}
 .link-text
 {
     font-size: 1.2rem;
     font-weight: 500;
 }
 ul li:hover{
+    box-sizing: border-box;
     background-color: #083b66;
     border-radius: 4px;
 }

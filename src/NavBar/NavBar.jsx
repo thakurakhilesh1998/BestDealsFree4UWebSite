@@ -1,7 +1,13 @@
 import React from 'react';
-import Logo from './images/logo.png';
-import './css/nav-bar.css';
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import Logo from '../images/logo.png';
+import '../css/nav-bar.css';
+// import $ from 'jquery';
+// import Popper from 'popper.js';
+import {NavItem} from './NavItem';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
+
+
 const NavBar=()=>{
     return(<>
            <nav class="navbar navbar-expand-sm sticky-top navbar-dark bg-info">
@@ -12,9 +18,9 @@ const NavBar=()=>{
                     </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav mr-auto">
-                        <li className="nav-item mx-2"><a href="http//:www.google.com" className="nav-link text-white text-uppercase  link-text">Deals</a></li>
-                        <li className="nav-item mx-2"><a href="http//:www.google.com" className="nav-link text-white text-uppercase  link-text">Earning Offers</a></li>
-                        <li className="nav-item mx-2"><a href="http//:www.google.com" className="nav-link text-white text-uppercase  link-text">About</a></li>
+                        <NavItem key="0" url="www.google.com" title="Deals"/>
+                        <NavItem key="1" url="www.facebook.com" title="Earning Offers"/>
+                        <NavItem key="2" url="www.twitter.com" title="About"/>
                     </ul>
                 </div>
             </div>
