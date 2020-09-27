@@ -2,6 +2,7 @@ import React from 'react';
 import {NavBar} from './NavBar/NavBar';
 import {Sliding} from './Sliding_Images/Sliding';
 import {CardLayout} from './CardLayout/CardLayout';
+import {Footer} from './Footer/Footer';
 
 const App=()=>{
 
@@ -9,6 +10,7 @@ const App=()=>{
     <NavBar/>
     <Sliding/>
     <CardLayout/>
+    <Footer/>
   </>);
 }
 
