@@ -33,6 +33,7 @@ const Sliding =()=>{
                         <span class="sr-only">Next</span>
                     </a>
             </div>
+            <hr style={{margin:"1rem",height:"1px"}} className="bg-primary"></hr>
         </>
         );
 }
