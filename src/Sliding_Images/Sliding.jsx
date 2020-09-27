@@ -5,6 +5,7 @@ import Sample from '../images/sample.jpg';
 import Sample1 from '../images/sample1.jpg';
 import Sample2 from '../images/sample2.jpg';
 import '../css/Sliding.css';
+import {SlidingItems} from './Sliding-Items';
 
 
 const Sliding =()=>{
@@ -19,27 +20,9 @@ const Sliding =()=>{
                     </ol>
 
                     <div className="carousel-inner">
-                        <div className="carousel-item active">
-                            <img src={Sample} className="d-block w-100 img-fluid" alt="intenet is not working"></img>
-                            <div className="carousel-caption d-none d-md-block">
-                                <h5>First slide label</h5>
-                                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>   
-                            </div>
-                        </div>
-                        <div className="carousel-item">
-                            <img src={Sample1} className="d-block w-100" alt="intenet is not working"></img>
-                            <div className="carousel-caption d-none d-md-block">
-                                <h5>First slide label</h5>
-                                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>   
-                            </div>
-                        </div>
-                        <div className="carousel-item">
-                            <img src={Sample2} className="d-block w-100" alt="intenet is not working"></img>
-                            <div className="carousel-caption d-none d-md-block">
-                                <h5>First slide label</h5>
-                                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>   
-                            </div>
-                        </div>
+                        <SlidingItems key="0" active="active" img={Sample}  mainHeading="100 % cashbakc" sub="Flip kart"/>
+                        <SlidingItems key="1" active="" img={Sample1}  mainHeading="100 % cashbakc" sub="Flip kart"/>
+                        <SlidingItems key="2" active="" img={Sample2}  mainHeading="100 % cashbakc" sub="Flip kart"/>
                     </div>
                     <a class="carousel-control-prev" href="#slide-show" role="button" data-slide="prev">
                         <span class="carousel-control-prev-icon arrow" aria-hidden="true"></span>
