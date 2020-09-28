@@ -18,9 +18,9 @@ const NavBar=()=>{
                     </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav mr-auto">
-                        <NavItem key="0" url="www.google.com" title="Deals"/>
-                        <NavItem key="1" url="www.facebook.com" title="Earning Offers"/>
-                        <NavItem key="2" url="www.twitter.com" title="About"/>
+                        <NavItem key="0" url="/" title="Deals"/>
+                        <NavItem key="1" url="/earning_offers" title="Earning Offers"/>
+                        <NavItem key="2" url="/about" title="About"/>
                     </ul>
                 </div>
             </div>
