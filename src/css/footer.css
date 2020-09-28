@@ -1,10 +1,8 @@
 .list_social
 {
     list-style-type: none;
+    padding: 0;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
 }
 
 .footer
@@ -12,8 +10,12 @@
     padding: 1rem;
     display:flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     color: white;
     align-items: center;
-    box-sizing: border-box;
+}
+
+.list_social li
+{
+    padding: 0.2rem 0.6rem;
 }

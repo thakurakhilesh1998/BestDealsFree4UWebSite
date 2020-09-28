@@ -8,13 +8,17 @@ import FacebookIcon from '@material-ui/icons/Facebook';
 const Footer=()=>{
     return(<>
         <div className="footer bg-primary">
-            <span>Copyright &copy; 2020</span>
-            <ul className="list_social">
-                <li><a href="#"><FacebookIcon/></a></li>     
-                <li><a href="#"><InstagramIcon/></a></li> 
-                <li><a href="#"><TelegramIcon/></a></li> 
-            </ul>
-
+            <div className="copy">
+                <span>Copyright &copy; 2020</span>
+            </div>
+            <div className="contact-us">
+                <span style={{padding:"0.6rem"}}>Follow Us On</span>
+                <ul className="list_social mr-auto">
+                    <li><FacebookIcon/></li>     
+                    <li><InstagramIcon/></li> 
+                    <li><TelegramIcon/></li> 
+                </ul>
+            </div>
         </div>
     </>);
 }
