@@ -19,3 +19,16 @@
 {
     padding: 0.2rem 0.6rem;
 }
+
+.icon
+{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.icon:hover{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}

@@ -14,9 +14,9 @@ const Footer=()=>{
             <div className="contact-us">
                 <span style={{padding:"0.6rem"}}>Follow Us On</span>
                 <ul className="list_social mr-auto">
-                    <li><FacebookIcon/></li>     
-                    <li><InstagramIcon/></li> 
-                    <li><TelegramIcon/></li> 
+                    <li><a href="https://www.facebook.com/Best-Deals-Free-4U-113339740523962/?ref=bookmarks" className="icon" target="_blank"><FacebookIcon/></a></li>
+                    <li><a href="https://www.instagram.com/best_deals_free_4u/" className="icon" target="_blank"><InstagramIcon/></a></li> 
+                    <li><a href="https://t.me/bestdelasfree4u" className="icon" target="_blank"><TelegramIcon/></a></li> 
                 </ul>
             </div>
         </div>
