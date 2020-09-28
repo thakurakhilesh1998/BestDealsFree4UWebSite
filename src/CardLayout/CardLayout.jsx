@@ -8,19 +8,19 @@ const CardLayout=()=>{
             <div className="row">
                     <Card key="0" img="" brand="Flipkart" info="Some quick example text to build on the card title and make up the
                             bulk of the card's content."/>
-                    <Card key="0" img="" brand="Flipkart" info="Some quick example text to build on the card title and make up the
+                    <Card key="1" img="" brand="Flipkart" info="Some quick example text to build on the card title and make up the
                             bulk of the card's content."/>
-                    <Card key="0" img="" brand="Flipkart" info="Some quick example text to build on the card title and make up the
+                    <Card key="2" img="" brand="Flipkart" info="Some quick example text to build on the card title and make up the
                             bulk of the card's content."/>
-                    <Card key="0" img="" brand="Flipkart" info="Some quick example text to build on the card title and make up the
+                    <Card key="3" img="" brand="Flipkart" info="Some quick example text to build on the card title and make up the
                             bulk of the card's content."/>
-                    <Card key="0" img="" brand="Flipkart" info="Some quick example text to build on the card title and make up the
+                    <Card key="4" img="" brand="Flipkart" info="Some quick example text to build on the card title and make up the
                             bulk of the card's content."/>                                                                
-                    <Card key="0" img="" brand="Flipkart" info="Some quick example text to build on the card title and make up the
+                    <Card key="5" img="" brand="Flipkart" info="Some quick example text to build on the card title and make up the
                             bulk of the card's content."/>
-                    <Card key="0" img="" brand="Flipkart" info="Some quick example text to build on the card title and make up the
+                    <Card key="6" img="" brand="Flipkart" info="Some quick example text to build on the card title and make up the
                             bulk of the card's content."/>
-                    <Card key="0" img="" brand="Flipkart" info="Some quick example text to build on the card title and make up the
+                    <Card key="7" img="" brand="Flipkart" info="Some quick example text to build on the card title and make up the
                             bulk of the card's content."/>
 
                 </div>
