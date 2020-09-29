@@ -1,0 +1,26 @@
+#heading
+{
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    margin: 1rem;
+    box-sizing: border-box;
+    font-style: italic;
+
+}
+
+/* #banner
+{
+    width: 400px!important;
+    height: 200px;
+    margin: 2rem;
+    border-radius: 2rem;
+} */
+
+#about-text
+{
+    width: 400px!important;
+    line-height: 2rem;
+    font-style: italic;
+    font-family: cursive;
+}
